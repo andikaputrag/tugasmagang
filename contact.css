@@ -1,0 +1,196 @@
+.gambar {
+  width: 60px;
+  height: 50px;
+}
+.top-contact {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: -20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    left: 420px;
+    cursor: pointer;
+}
+.top-contact a {
+  color: black;
+  text-decoration: none;
+}
+.navbar-nav {
+  margin-top: 17px;
+  font-size: 13px;
+}
+.navbar-brand-text {
+  margin-left: 0.75rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.2;
+}
+.navbar-brand-text .red-text {
+  color: #d52121;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.navbar-brand-text .gray-text {
+  font-size: 0.85rem;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 0.1rem;
+  font-style: italic;
+}
+
+  /* Footer styling */
+     .footer-bg {
+      background-color: #0a0a0a;
+      color: #eee;
+      font-size: 0.9rem;
+    }
+    .footer-logo img {
+      width: 60px;
+      height: auto;
+      margin-left: 70px;
+      position: relative;
+      filter: brightness(0) invert(1);
+    }
+    .footer-company-name {
+      color: #e32c1c;
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      margin-top: 0.25rem;
+    }
+    .footer-company-sub {
+      font-family: Arial, sans-serif;
+      font-weight: 600;
+      font-size: 0.75rem;
+      color: #f7f4f4;
+      letter-spacing: 0.06em;
+      margin-top: -0.2rem;
+      margin-left: 50px;
+      line-height: 1rem;
+    }
+    .footer-link-title {
+      color: #eee;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .footer-link a {
+      color: #ddd;
+      text-decoration: none;
+      font-size: 0.75rem;
+      display: block;
+      margin-bottom: 0.4rem;
+      transition: color 0.3s ease;
+    }
+    .footer-link a:hover,
+    .footer-link a:focus {
+      color: #e32c1c;
+      text-decoration: underline;
+    }
+    .footer-bottom {
+      background-color: #121212;
+      color: #555;
+      font-size: 0.75rem;
+      padding: 0.75rem 1rem;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+/* Responsive padding */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 50px 20px;
+    clip-path: none; /* hapus clip-path di layar kecil */
+  }
+}
+
+  body {
+      font-family: Arial, sans-serif;
+    }
+    .form-section {
+      background-color: #f0f0f0;
+      padding: 15px;
+      border: none;
+    }
+    .form-section:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    .section-title {
+      color: red;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .submit-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-left: 32rem;
+      position: relative;
+    }
+    .contact-info i {
+      margin-right: 8px;
+    }
+    .contact-info a {
+      color: red;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .form-control::placeholder {
+      color: #555;
+    }
+
+    .footer-col p{
+        color:red;
+    }
+
+    .ciakar {
+        color:red;
+        margin-bottom: 1rem ;
+    }
+
+    .ktpku {
+        color: red;
+    }
+
+.hero-section {
+  position: relative;
+  color: white;
+  padding: 6rem 3rem 4rem;
+  background: url('image/lakban.png') no-repeat center center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: white;
+  max-width: 600px;
+  line-height: 1.6;
+}
